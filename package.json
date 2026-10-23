@@ -1,0 +1,10 @@
+{
+  "name": "whycoinmoves-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Read-only crypto news and observed price reactions from WhyCoinMoves",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {"start": "node server.mjs", "test": "node test.mjs"},
+  "dependencies": {"@modelcontextprotocol/sdk": "^1.32.1", "zod": "^3.25.76"}
+}
