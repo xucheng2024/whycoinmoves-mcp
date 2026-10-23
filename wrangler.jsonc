@@ -1,0 +1,7 @@
+{
+  "name": "whycoinmoves-mcp",
+  "main": "worker.mjs",
+  "account_id": "730a63d7ae29aca8a9ee1639a8131c6b",
+  "compatibility_date": "2026-10-20",
+  "workers_dev": true
+}
