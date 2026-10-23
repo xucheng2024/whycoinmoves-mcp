@@ -7,7 +7,7 @@ const annotations = { readOnlyHint: true, destructiveHint: false, idempotentHint
 async function read(path) {
   try {
     const response = await fetch(new URL(path, 'https://whycoinmoves.com'), {
-      signal: AbortSignal.timeout(15000), redirect: 'error', headers: { Accept: 'application/json' },
+      signal: AbortSignal.timeout(15000), redirect: 'manual', headers: { Accept: 'application/json' },
     });
     if (!response.ok) throw new Error(`WhyCoinMoves returned HTTP ${response.status}`);
     const text = await response.text();
